@@ -1,6 +1,6 @@
 package com.tozny.aes_crypto_sample;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -14,7 +14,7 @@ import com.tozny.aeswithintegritysample.R;
 import com.tozny.crypto.android.AesCbcWithIntegrity;
 import static com.tozny.crypto.android.AesCbcWithIntegrity.*;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     public static final String TAG = "Tozny";
 
